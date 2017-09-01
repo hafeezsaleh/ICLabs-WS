@@ -1,0 +1,11 @@
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\bin\Release\ICLabs.Services.dll.config
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\bin\Release\ICLabs.Services.dll
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\bin\Release\ICLabs.Services.pdb
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\bin\Release\ICLabs.Model.dll
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\bin\Release\ICLabs.ModelV1.dll
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\bin\Release\Newtonsoft.Json.dll
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\bin\Release\ICLabs.ModelV1.pdb
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\bin\Release\ICLabs.Model.pdb
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\obj\Release\ICLabs.Services.csprojResolveAssemblyReference.cache
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\obj\Release\ICLabs.Services.dll
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Services\obj\Release\ICLabs.Services.pdb

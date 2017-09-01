@@ -1,0 +1,296 @@
+SUMMARY:
+========
+
+Document scanned:		C:\Users\user\Desktop\TestingCardsNew.dot
+Date scanned:			Friday, December 26, 2014
+Total lines scanned:		537
+Total items found:  		35
+Deprecated items:   		25
+Removed items:   		5
+Changed items:       		4
+Redesigned items:   		0
+Declare statements: 		0
+References Found:    		1
+
+Project References:
+===================
+These references (Libraries and Controls) may not be 64-bit compatible.
+You may need to verify their compatibility. For more information see:
+	 http://go.microsoft.com/fwlink/?LinkId=177572 
+1) DSO OLE Document Properties Reader 2.0, [DSOFile], {58968145-CF00-4341-995F-2EE093F6ABA3}, C:\DsoFile\Dsofile.dll
+
+DETAILS:
+========
+
+MODULE:		frmFileList
+FUNCTION:	cmdcreatelist_click
+LINE:		59
+TYPE:		DEPRECATION
+ITEM:		[mso]ChartFont.Bold
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		selection.font.bold = false
+
+MODULE:		frmFileList
+FUNCTION:	cmdcreatelist_click
+LINE:		67
+TYPE:		DEPRECATION
+ITEM:		[mso]ChartFont.Size
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		selection.font.size = 8
+
+MODULE:		frmFileList
+FUNCTION:	cmdcreatelist_click
+LINE:		92
+TYPE:		CHANGE
+ITEM:		[wrd]Tables.Add
+URL:		http://go.microsoft.com/fwlink/?LinkID=215366
+CODE:		activedocument.tables.add range:=selection.range, numrows:=1, numcolumns:= _2, defaulttablebehavior:=wdword9tablebehavior, autofitbehavior:= _wdautofitfixed
+
+MODULE:		frmFileList
+FUNCTION:	cmdcreatelist_click
+LINE:		103
+TYPE:		CHANGE
+ITEM:		[wrd]Tables.Add
+URL:		http://go.microsoft.com/fwlink/?LinkID=215366
+CODE:		activedocument.tables.add range:=selection.range, numrows:=round(itotalfiles / 2), numcolumns:= _2, defaulttablebehavior:=wdword9tablebehavior, autofitbehavior:= _wdautofitfixed
+
+MODULE:		frmFileList
+FUNCTION:	cmdcreatelist_click
+LINE:		142
+TYPE:		DEPRECATION
+ITEM:		[mso]ChartFont.Size
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		selection.font.size = 8
+
+MODULE:		frmFileList
+FUNCTION:	cmdcreatelist_click
+LINE:		152
+TYPE:		DEPRECATION
+ITEM:		[mso]ChartFont.Size
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		selection.font.size = 8
+
+MODULE:		frmFileList
+FUNCTION:	cmdcreatelist_click
+LINE:		239
+TYPE:		REMOVED
+ITEM:		[mso]FileDialogFilters.Clear
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		err.clear
+
+MODULE:		frmFileList
+FUNCTION:	createsinglecard
+LINE:		270
+TYPE:		CHANGE
+ITEM:		[wrd]Tables.Add
+URL:		http://go.microsoft.com/fwlink/?LinkID=215366
+CODE:		activedocument.tables.add range:=selection.range, numrows:=maxrows, numcolumns:=4, defaulttablebehavior:=wdword9tablebehavior, autofitbehavior:=wdautofitfixed
+
+MODULE:		frmFileList
+FUNCTION:	createsinglecard
+LINE:		297
+TYPE:		DEPRECATION
+ITEM:		[mso]ChartFont.Size
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		selection.tables(1).range.font.size = 8
+
+MODULE:		frmFileList
+FUNCTION:	createsinglecard
+LINE:		309
+TYPE:		DEPRECATION
+ITEM:		[mso]ChartFont.Bold
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		selection.font.bold = false
+
+MODULE:		frmFileList
+FUNCTION:	createsinglecard
+LINE:		317
+TYPE:		DEPRECATION
+ITEM:		[mso]ChartFont.Size
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		selection.font.size = 8
+
+MODULE:		frmFileList
+FUNCTION:	createsinglecard
+LINE:		327
+TYPE:		CHANGE
+ITEM:		[wrd]Document.Merge
+URL:		http://go.microsoft.com/fwlink/?LinkID=215366
+CODE:		selection.cells.merge
+
+MODULE:		frmFileList
+FUNCTION:	createsinglecard
+LINE:		370
+TYPE:		DEPRECATION
+ITEM:		[wrd]Diagram.FitText
+URL:		http://go.microsoft.com/fwlink/?LinkID=215366
+CODE:		.fittext = false
+
+MODULE:		frmFileList
+FUNCTION:	createsinglecard
+LINE:		387
+TYPE:		DEPRECATION
+ITEM:		[wrd]Diagram.FitText
+URL:		http://go.microsoft.com/fwlink/?LinkID=215366
+CODE:		.fittext = true
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		410
+TYPE:		REMOVED
+ITEM:		[mso]FileDialogFilters.Clear
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		listbox1.clear
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		429
+TYPE:		REMOVED
+ITEM:		[mso]FileDialogFilters.Clear
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		listbox1.clear
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		438
+TYPE:		DEPRECATION
+ITEM:		[wrd]Application.FileSearch
+URL:		http://go.microsoft.com/fwlink/?LinkID=215366
+CODE:		set fs = application.filesearch
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		448
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.NewSearch
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.newsearch
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		456
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.SearchSubFolders
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.searchsubfolders = false
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		464
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.MatchTextExactly
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.matchtextexactly = true
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		473
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.LookIn
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.lookin = chosenfolder.caption
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		483
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.FoundFiles
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		for i = 1 to .foundfiles.count
+
+MODULE:		frmFileList
+FUNCTION:	cmdselectfolder_click
+LINE:		491
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.FoundFiles
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		namepart = getnamepart(.foundfiles(i))
+
+MODULE:		frmFileList
+FUNCTION:	userform_initialize
+LINE:		526
+TYPE:		REMOVED
+ITEM:		[mso]FileDialogFilters.Clear
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		listbox1.clear
+
+MODULE:		frmFileList
+FUNCTION:	userform_initialize
+LINE:		542
+TYPE:		DEPRECATION
+ITEM:		[wrd]Application.FileSearch
+URL:		http://go.microsoft.com/fwlink/?LinkID=215366
+CODE:		set fs = application.filesearch
+
+MODULE:		frmFileList
+FUNCTION:	userform_initialize
+LINE:		552
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.NewSearch
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.newsearch
+
+MODULE:		frmFileList
+FUNCTION:	userform_initialize
+LINE:		560
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.SearchSubFolders
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.searchsubfolders = false
+
+MODULE:		frmFileList
+FUNCTION:	userform_initialize
+LINE:		568
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.MatchTextExactly
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.matchtextexactly = true
+
+MODULE:		frmFileList
+FUNCTION:	userform_initialize
+LINE:		578
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.LookIn
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.lookin = chosenfolder.caption
+
+MODULE:		frmFileList
+FUNCTION:	userform_initialize
+LINE:		588
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.FoundFiles
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		for i = 1 to .foundfiles.count
+
+MODULE:		frmFileList
+FUNCTION:	userform_initialize
+LINE:		596
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.FoundFiles
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		namepart = getnamepart(.foundfiles(i))
+
+MODULE:		frmFileList
+FUNCTION:	filelocked
+LINE:		643
+TYPE:		REMOVED
+ITEM:		[mso]FileDialogFilters.Clear
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		err.clear
+
+MODULE:		frmFileList
+FUNCTION:	deleteemptyparas
+LINE:		701
+TYPE:		DEPRECATION
+ITEM:		[mso]IFind.MatchCase
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.matchcase = false
+
+MODULE:		frmFileList
+FUNCTION:	deleteemptyparas
+LINE:		710
+TYPE:		DEPRECATION
+ITEM:		[mso]FileSearch.MatchAllWordForms
+URL:		http://go.microsoft.com/fwlink/?LinkID=215358
+CODE:		.matchallwordforms = false
+

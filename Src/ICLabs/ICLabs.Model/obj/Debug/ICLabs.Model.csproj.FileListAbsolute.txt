@@ -1,0 +1,7 @@
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Model\bin\Debug\ICLabs.Model.dll.config
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Model\bin\Debug\ICLabs.Model.dll
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Model\bin\Debug\ICLabs.Model.pdb
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Model\bin\Debug\Newtonsoft.Json.dll
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Model\obj\Debug\ICLabs.Model.csprojResolveAssemblyReference.cache
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Model\obj\Debug\ICLabs.Model.dll
+C:\ICLabs-WS\Src\ICLabs\ICLabs.Model\obj\Debug\ICLabs.Model.pdb

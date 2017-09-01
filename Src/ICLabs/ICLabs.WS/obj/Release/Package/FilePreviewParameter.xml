@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ICLabs.WS" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\ICLabs-WS\\Src\\ICLabs\\ICLabs\.WS\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\ICLabs-WS\\Src\\ICLabs\\ICLabs\.WS\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="CacheDB-Web.config Connection String" description="" value="Server = 192.168.180.220; Port = 1972; Namespace = DEV; Password = testing123;User ID = WSDotNET;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\ICLabs-WS\\Src\\ICLabs\\ICLabs\.WS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CacheDB']/@connectionString" />
+  </parameter>
+</parameters>
